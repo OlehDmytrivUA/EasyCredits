@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #008080;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.creditsfx.Controllers.SingUpWindowController">
+    <children>
+        <Label layoutX="221.0" layoutY="47.0" text="Create Account">
+            <font>
+                <Font name="Bookman Old Style" size="21.0" />
+            </font>
+        </Label>
+        <TextField fx:id="FirstNameField" layoutX="57.0" layoutY="100.0" prefHeight="26.0" prefWidth="486.0" promptText="FirstName" />
+        <TextField fx:id="LastNameField" layoutX="57.0" layoutY="144.0" prefHeight="26.0" prefWidth="486.0" promptText="LastName" />
+        <TextField fx:id="CreditCardField" layoutX="57.0" layoutY="187.0" prefHeight="26.0" prefWidth="486.0" promptText="CreditCard" />
+        <TextField fx:id="UserNameField" layoutX="56.0" layoutY="228.0" prefHeight="26.0" prefWidth="486.0" promptText="UserName" />
+        <TextField fx:id="PasswordField" layoutX="55.0" layoutY="269.0" prefHeight="26.0" prefWidth="486.0" promptText="Password" />
+        <Button fx:id="CreateAccountButton" layoutX="254.0" layoutY="353.0" mnemonicParsing="false" onAction="#SingUpUserAction" text="Create Account" />
+      <Button fx:id="Back" layoutX="14.0" layoutY="10.0" mnemonicParsing="false" onAction="#Back" text="&lt;--" />
+      <Label fx:id="Messege" layoutX="55.0" layoutY="22.0" prefHeight="18.0" prefWidth="486.0" AnchorPane.bottomAnchor="360.0" AnchorPane.leftAnchor="55.0" AnchorPane.rightAnchor="59.0" AnchorPane.topAnchor="22.0" />
+    </children>
+</AnchorPane>
